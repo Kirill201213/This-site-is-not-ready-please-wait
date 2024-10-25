@@ -312,3 +312,874 @@ main span{
   width: 730px;
   border-bottom: 1px solid black;
 }
+
+
+  color: black;nav {
+  margin-left: 50px;
+  font-size: 15px;
+  padding: 10px;
+  display: flex;
+}
+
+
+nav a,
+details {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+header {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+
+  margin: 0;
+}
+
+
+
+
+.header_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+
+.first_line {
+  display: flex;
+  width: 150%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+
+
+
+.part_one {
+  margin-left: 22%;
+}
+
+
+.part_two {
+  display: flex;
+  gap: 20px;
+}
+.button{
+display: flex;
+justify-content: center;
+}
+.full-menu-button {
+padding: 10px 30px;
+border: 1px solid gray;
+border-radius: 5px;
+text-align: center;
+margin-top: 20px;
+cursor: pointer;
+background-color: #fff;
+display: block;
+}
+
+
+
+
+.full-menu-button:hover {
+box-shadow: 0px 3px 3px gray;
+}
+
+
+.second_row, .first_row, .third_row, .fourth_row{
+display: flex;
+justify-content: center;
+}
+.fourth_row {
+
+
+align-items: center;
+width:100%;
+}
+
+
+details[open] .header-summary::after {
+transform: rotate(270deg) scaleX(1.3);
+
+
+
+
+}
+
+
+.menu-content {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 10px;
+background-color: #fff;
+padding: 15px;
+border: 1px solid #e0e0e0;
+max-width: 400px;
+margin: 0 auto;
+}
+
+
+
+
+.menu-item {
+text-align: center;
+width: 20%;
+max-width: 100px;
+}
+
+
+.menu-item img {
+width: 80px;
+height: auto;
+}
+
+
+.menu-item span {
+display: block;
+margin-top: 5px;
+font-size: 14px;
+}
+
+
+
+
+.header-summary {
+list-style: none;
+cursor: pointer;
+display: inline-block;
+position: relative;
+font-size: 18px;
+border: none;
+padding-right: 20px;
+}
+
+
+
+
+.header-summary::after {
+content: 'ᐳ';
+font-size: 12px;
+margin-left: 8px;
+display: inline-block;
+transform: rotate(90deg) scaleX(1.3);
+transition: transform 0.3s ease;
+
+
+}
+
+
+
+
+.nav_and_links {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.logo {
+  display: flex;
+  padding-top: 50px;
+}
+
+
+
+
+.mcdonald {
+  width: 80px;
+  height: 70px;
+}
+
+
+
+
+
+
+
+
+.qqq {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+.r {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.logo{
+  display: flex;
+  padding-top: 50px;
+}
+
+
+.mcdonald {
+  width: 80px;
+  height: 70px;
+}
+
+
+a {
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+main{
+  padding: 100px;
+}
+
+
+
+
+.mmm{
+  width: 400px;
+}
+
+
+
+
+.main{
+  font-size: 28px;
+}
+
+
+
+
+.e{
+width: 500px;
+}
+
+
+
+
+.h{
+   width: 150px ;
+}
+
+
+
+
+.j{
+  width: 500px;
+}
+
+
+
+
+.script{
+  border-radius: 5px;
+  padding: 15px;
+  background-color: yellow;
+  cursor: pointer;
+  color: black;
+  transition: 0.35s;
+  width: 80px;
+}
+
+
+
+
+.script:hover{
+  background-color: blueviolet;
+  color:white;
+}
+
+
+
+
+.qqq{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+.r{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+footer h2{
+  font-size: 15px;
+}
+
+
+
+
+tr{
+  text-align: center;
+}
+
+
+
+
+.footer{
+  width: 20px;
+}
+
+
+
+
+.a{
+ width: 100px;
+}
+
+
+
+
+.m{
+  width: 100px;
+}
+
+
+
+
+.eee{
+ margin: 30px;
+}
+
+
+
+
+.cafe{
+  width: 500px;
+}
+
+
+
+
+
+
+
+
+.contacts_div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+
+
+.contacts_part_one{
+  margin-left: 9%;
+}
+
+
+
+
+.contacts_part_two{
+  margin-right: 8%;
+}
+.contacts_part_two img{
+  width: 170px;
+  height: 40px;
+}
+
+
+
+
+.section_one{
+  display: flex;
+  gap: 50px;
+}
+
+
+
+
+.img_sales{
+  height: 420px;
+  width: 550px;
+}
+
+
+
+
+.sales_text{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.sales_links{
+  display: flex;
+  gap: 25px;
+}
+
+
+
+
+.section_two{
+  display: flex;
+  gap: 80px;
+}
+
+
+
+
+.section_two p{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+.section_three{
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+
+
+
+.img_coffee{
+  height: 420px;
+  width: 550px;
+}
+
+
+
+
+.coffee_text{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.section_four{
+  margin-top: 100px;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+
+
+
+.section_four_div{
+  border: 1px solid rgb(117, 98, 98);
+  border-radius: 5px;
+  height: 450px;
+  width: 350px;
+
+
+
+
+}
+
+
+
+
+.section_four_div h1, .section_four_div p, .section_four_div a{
+  margin-left: 20px;
+}
+
+
+
+
+.section_four_div img{
+  width: 350px;
+}
+.section_four_div h1{
+ font-size: 26px;
+}
+
+
+
+
+.btn_one{
+  margin-top: 100px;
+}
+.btn_two{
+  margin-top: 90px;
+}
+.btn_three{
+  margin-top: 70px;
+}
+
+
+
+
+.end{
+  display: flex;
+  justify-content: space-between;
+}
+.end_part_one{
+  display: flex;
+  gap: 50px;
+  margin-left: 9%;
+}
+
+
+
+
+.end_part_two{
+  margin-right: 8%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.posituka{
+  text-decoration: none;
+  color: black;
+}
+
+
+.button{
+display: flex;
+justify-content: center;
+}
+.full-menu-button {
+padding: 10px 30px;
+border: 1px solid gray;
+border-radius: 5px;
+text-align: center;
+margin-top: 20px;
+cursor: pointer;
+background-color: #fff;
+display: block;
+}
+
+
+
+
+.full-menu-button:hover {
+box-shadow: 0px 3px 3px gray;
+}
+
+
+.second_row, .first_row, .third_row, .fourth_row{
+display: flex;
+justify-content: center;
+}
+.fourth_row {
+
+
+align-items: center;
+width:100%;
+}
+
+
+
+
+
+
+details[open] .header-summary::after {
+transform: rotate(270deg) scaleX(1.3);
+
+
+
+
+}
+
+
+.menu-content {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 10px;
+background-color: #fff;
+padding: 15px;
+border: 1px solid #e0e0e0;
+max-width: 450px;
+margin: 0 auto;
+}
+
+
+
+
+.menu-item {
+text-align: center;
+width: 20%;
+max-width: 100px;
+}
+
+
+.menu-item img {
+width: 80px;
+height: auto;
+}
+
+
+.menu-item span {
+display: block;
+margin-top: 5px;
+font-size: 14px;
+}
+
+
+
+
+.header-summary {
+list-style: none;
+cursor: pointer;
+display: inline-block;
+position: relative;
+font-size: 18px;
+border: none;
+padding-right: 20px;
+}
+
+
+
+
+.header-summary::after {
+content: 'ᐳ';
+font-size: 12px;
+margin-left: 8px;
+display: inline-block;
+transform: rotate(90deg) scaleX(1.3);
+transition: transform 0.3s ease;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.slider-wrapper {
+    position: relative;
+}
+
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.slider img {
+    width: 100%;
+    display: none; /* Скрываем все изображения по умолчанию */
+}
+
+
+.slider img.active {
+    display: block; /* Показываем только активное изображение */
+}
+
+
+.slider-nav {
+    position: absolute; /* Позиционируем элементы */
+    top: 550px; /* Увеличьте это значение, чтобы опустить кнопки вниз */
+    left: 50%; /* Центрируем по горизонтали */
+    transform: translateX(-50%); /* Центрируем элемент */
+    display: flex; /* Используем flexbox для выравнивания кнопок */
+    gap: 10px; /* Отступ между кнопками */
+    z-index: 1000; /* Убедитесь, что кнопки находятся поверх других элементов */
+}
+
+
+
+
+.slider-nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000; /* Цвет текста */
+    background-color: #fff; /* Белый фон */
+    padding: 5px ; /* Уменьшаем отступы */
+    border-radius: 50%; /* Делаем кнопки круглыми */
+    transition: background-color 0.3s ease; /* Плавный переход при наведении */
+    display: inline-flex; /* Центрируем содержимое */
+    align-items: center; /* Вертикальное выравнивание */
+    justify-content: center; /* Горизонтальное выравнивание */
+}
+
+
+.slider-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Эффект при наведении */
+}
+
+
+.slider-wrapper {
+    position: relative;
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Прозрачный фон */
+    border: none;
+    padding: 10px;
+    font-size: 24px; /* Размер шрифта для стрелок */
+    cursor: pointer;
+    z-index: 10; /* Чтобы кнопки были поверх изображений */
+}
+
+
+.prev {
+    left: 10px; /* Сдвиньте кнопку влево */
+}
+
+
+.next {
+    right: 10px; /* Сдвиньте кнопку вправо */
+}
+
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    font-size: 16px;
+}
+
+
+.prev, .next, .pause-play {
+    border: none; /* Убираем рамку */
+    background-color: transparent; /* Прозрачный фон */
+    font-size: 20px; /* Размер шрифта */
+    cursor: pointer; /* Курсор в виде указателя */
+}
+
+
+.slide {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Плавный переход для изменения прозрачности */
+}
+
+
+.slide.active {
+    opacity: 1; /* Полная видимость для активного слайда */
+}
+
+
+.pause-play{
+position: relative;
+top: -50px;
+}
+
+
+.slider-nav {
+position: absolute;
+top: 85%; /* Вместо фиксированного значения используем относительное */
+left: 50%;
+
+
+transform: translateX(-50%);
+display: flex;
+gap: 10px;
+z-index: 1000;
+}
+
+
+@media(max-width: 768px) {
+.slider-nav {
+top: 65%;
+}
+}
+
+
+@media(max-width: 480px) {
+.slider-nav {
+top: 60%;
+}
+}
+
+
+
+
+
+
+
