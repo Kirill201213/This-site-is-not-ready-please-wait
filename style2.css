@@ -7,6 +7,10 @@
   
 }
 
+.footer{
+  width: 20px;
+}
+
 nav a,
 details {
   text-decoration: none;
